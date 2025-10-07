@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bending Corners Ride Services</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700;800&family=Montserrat:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <a class="logo" href="#home" aria-label="Bending Corners home">
+          <span class="logo-sign">🚗</span>
+          <div class="logo-text">
+            <span class="logo-title">Bending Corners</span>
+            <span class="logo-subtitle">Ride Services &amp; Web Show</span>
+          </div>
+        </a>
+        <nav class="primary-nav" aria-label="Primary">
+          <button
+            class="nav-toggle"
+            type="button"
+            aria-expanded="false"
+            aria-controls="primary-menu"
+          >
+            <span class="sr-only">Toggle navigation</span>
+            ☰
+          </button>
+          <ul id="primary-menu">
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#webshow">Web Show</a></li>
+            <li><a href="#payments">Payments</a></li>
+            <li><a href="#book">Book a Ride</a></li>
+            <li><a href="#faq">FAQ</a></li>
+          </ul>
+        </nav>
+        <a class="cta-button" href="#book">Book Now</a>
+      </div>
+    </header>
+
+    <main id="home">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="container hero-content">
+          <div class="hero-text">
+            <p class="eyebrow">Serving Little Rock, Jacksonville &amp; North Little Rock</p>
+            <h1 id="hero-title">Bending Corners — the neighborhood ride share that feels like family</h1>
+            <p>
+              Skip the surge pricing and long waits. Bending Corners delivers
+              dependable rides, transparent pricing, and a whole lot of hometown
+              heart — all wrapped into an exciting streaming experience.
+            </p>
+            <div class="hero-actions">
+              <a class="cta-button" href="#book">Reserve a Ride</a>
+              <a class="ghost-button" href="#pricing">See Pricing</a>
+            </div>
+            <div class="hero-guarantee">
+              <strong>Guaranteed:</strong> professional drivers, sanitized rides,
+              and friendly faces with every pickup.
+            </div>
+          </div>
+          <div class="hero-card" role="presentation">
+            <div class="card-badge">Special Offer</div>
+            <h2>Ride Bundle Savings</h2>
+            <p>Lock in 10 trips and save $50 instantly.</p>
+            <ul>
+              <li>$100 &mdash; ten one-way rides</li>
+              <li>$200 &mdash; ten round trips</li>
+            </ul>
+            <a class="cta-link" href="#book">Claim Your Bundle</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="services" aria-labelledby="services-title">
+        <div class="container">
+          <h2 id="services-title">Ride services built for your day-to-day</h2>
+          <p class="section-intro">
+            Whether you are commuting to work, running errands, or heading out for
+            a night on the town, Bending Corners has the ride style to match the
+            moment.
+          </p>
+          <div class="services-grid">
+            <article class="service-card">
+              <h3>On-Demand Rides</h3>
+              <p>
+                Schedule pickups within our service zone and arrive on time thanks
+                to drivers who know every shortcut across LR, J'ville, and NLR.
+              </p>
+            </article>
+            <article class="service-card">
+              <h3>Multi-Stop Errands</h3>
+              <p>
+                Add extra stops for only $5 apiece. Each stop includes a ten-minute
+                wait so you can grab groceries, prescriptions, or a quick coffee.
+              </p>
+            </article>
+            <article class="service-card">
+              <h3>Event &amp; Late-Night Service</h3>
+              <p>
+                Reliable rides for concerts, sports, and after-hours shifts so you
+                get home safely and affordably.
+              </p>
+            </article>
+            <article class="service-card">
+              <h3>Ride + Web Show Access</h3>
+              <p>
+                Tune into the Bending Corners web show for behind-the-scenes driver
+                stories, city highlights, and real-time updates on community events.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="pricing" class="pricing" aria-labelledby="pricing-title">
+        <div class="container">
+          <h2 id="pricing-title">Transparent pricing, no surprises</h2>
+          <p class="section-intro">
+            Choose the ride that fits your plans. All prices are flat-rate within
+            our service area, so you always know exactly what you will pay before
+            you book.
+          </p>
+          <div class="pricing-grid">
+            <article class="pricing-card">
+              <h3>Regular Rides</h3>
+              <ul>
+                <li><strong>$15</strong> &mdash; one way</li>
+                <li><strong>$25</strong> &mdash; round trip</li>
+              </ul>
+              <p class="card-footer">Perfect for quick trips and daily commutes.</p>
+            </article>
+            <article class="pricing-card highlight">
+              <div class="card-badge">Best Value</div>
+              <h3>Bundle &amp; Save</h3>
+              <ul>
+                <li><strong>$100</strong> &mdash; ten one-way rides (save $50)</li>
+                <li><strong>$200</strong> &mdash; ten round trips (save $50)</li>
+              </ul>
+              <p class="card-footer">
+                Commit now and ride whenever you need. Share rides across your
+                household.
+              </p>
+            </article>
+            <article class="pricing-card">
+              <h3>Extra Stops</h3>
+              <ul>
+                <li><strong>$5</strong> &mdash; per stop (includes 10-minute wait)</li>
+              </ul>
+              <p class="card-footer">Ideal for errands, pickups, and add-on drop-offs.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="webshow" class="webshow" aria-labelledby="webshow-title">
+        <div class="container">
+          <div class="webshow-content">
+            <div>
+              <h2 id="webshow-title">Catch the Bending Corners Web Show</h2>
+              <p>
+                Ride along with our team through exclusive streaming episodes. Meet
+                featured riders, explore local businesses, and get first access to
+                limited-time deals and giveaways.
+              </p>
+              <ul class="feature-list">
+                <li>Weekly live streams with behind-the-scenes footage</li>
+                <li>Spotlight interviews with local entrepreneurs</li>
+                <li>Community-driven challenges and prizes</li>
+              </ul>
+              <a class="cta-button" href="https://www.facebook.com/BendingCorners2023" target="_blank" rel="noopener">
+                Follow the Show
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="payments" class="payments" aria-labelledby="payments-title">
+        <div class="container">
+          <div class="payments-header">
+            <h2 id="payments-title">Seamless payments that land in your account</h2>
+            <p class="section-intro">
+              Turn every completed ride into money in the bank. Offer riders
+              secure ways to pay digitally or in person, then cash out directly
+              to your linked account.
+            </p>
+          </div>
+          <div class="payments-grid">
+            <article class="payment-card">
+              <h3>Cash App deposits</h3>
+              <p>
+                Share your tag so passengers can send funds instantly. Enable
+                instant deposit inside Cash App to transfer the balance straight
+                to your bank account after every ride.
+              </p>
+              <a
+                class="cta-link"
+                href="https://cash.app/$BendingCorners2023"
+                target="_blank"
+                rel="noopener"
+              >
+                Open $BendingCorners2023
+              </a>
+            </article>
+            <article class="payment-card">
+              <h3>Card payments via Stripe or Square</h3>
+              <p>
+                Connect a Stripe, Square, or PayPal business account to accept
+                debit and credit cards. Their dashboards let you schedule
+                automatic deposits to the checking account you already use.
+              </p>
+              <ul class="payment-list">
+                <li>Create your free account and verify your banking details.</li>
+                <li>Generate a checkout link for rides or bundles.</li>
+                <li>Add that link to this page or share it in your ride
+                confirmations.</li>
+              </ul>
+            </article>
+            <article class="payment-card">
+              <h3>Receipts &amp; records</h3>
+              <p>
+                Need paper trails? Send paid invoices or receipts right from
+                your provider. Everything stays synced for tax time and your
+                riders gain extra confidence.
+              </p>
+              <ul class="payment-list">
+                <li>Email PDF receipts after each completed trip.</li>
+                <li>Track bundle redemptions from one dashboard.</li>
+                <li>Automate reminders for outstanding balances.</li>
+              </ul>
+            </article>
+          </div>
+          <div class="payment-cta">
+            <a
+              class="cta-button"
+              href="https://cash.app/$BendingCorners2023"
+              target="_blank"
+              rel="noopener"
+            >
+              Pay Bending Corners Now
+            </a>
+            <p class="payment-note">
+              Want to drop in your own checkout? Replace the link above with
+              your Stripe, Square, or PayPal payment URL. Those services deposit
+              directly to the bank account you connect during setup.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="book" class="booking" aria-labelledby="booking-title">
+        <div class="container">
+          <div class="booking-intro">
+            <h2 id="booking-title">Ready to bend some corners?</h2>
+            <p>
+              Reserve your ride in seconds. Request one-way or round-trip service,
+              add extra stops, and see your estimated total before you text us.
+            </p>
+            <p>
+              Prefer to chat directly? Text pickup &amp; drop-off to
+              <a href="sms:+15013498972">(501) 349-8972</a> or message us on
+              Cash App <strong>$BendingCorners2023</strong>.
+            </p>
+          </div>
+          <form class="booking-form" aria-describedby="estimate">
+            <div class="form-field">
+              <label for="ride-type">Ride type</label>
+              <select id="ride-type" name="ride-type">
+                <option value="one-way">One Way ($15)</option>
+                <option value="round-trip">Round Trip ($25)</option>
+                <option value="bundle-one-way">Bundle — Ten One-Way ($100)</option>
+                <option value="bundle-round-trip">Bundle — Ten Round Trips ($200)</option>
+              </select>
+            </div>
+            <div class="form-field">
+              <label for="stops">Extra stops</label>
+              <input
+                id="stops"
+                type="number"
+                name="stops"
+                min="0"
+                max="6"
+                value="0"
+                inputmode="numeric"
+              />
+              <small>+$5 per stop (10-minute wait included)</small>
+            </div>
+            <div class="form-field">
+              <label for="ride-date">Preferred date</label>
+              <input id="ride-date" type="date" name="ride-date" />
+            </div>
+            <div class="form-field">
+              <label for="ride-time">Preferred pickup time</label>
+              <input id="ride-time" type="time" name="ride-time" />
+            </div>
+            <div class="form-field">
+              <label for="pickup">Pickup location</label>
+              <input
+                id="pickup"
+                name="pickup"
+                type="text"
+                placeholder="123 Main St, Little Rock"
+                required
+              />
+            </div>
+            <div class="form-field">
+              <label for="dropoff">Drop-off location</label>
+              <input
+                id="dropoff"
+                name="dropoff"
+                type="text"
+                placeholder="Destination address"
+                required
+              />
+            </div>
+            <div class="form-field full-width">
+              <label for="notes">Notes for your driver</label>
+              <textarea
+                id="notes"
+                name="notes"
+                rows="3"
+                placeholder="Gate codes, accessibility needs, or special requests"
+              ></textarea>
+            </div>
+            <div class="form-summary" id="estimate" aria-live="polite">
+              <span class="summary-label">Estimated total:</span>
+              <span class="summary-value" id="estimate-value">$15.00</span>
+              <p class="summary-note">
+                Final confirmation will be sent via text after we review your
+                request.
+              </p>
+            </div>
+            <button type="submit" class="cta-button">Send Booking Request</button>
+          </form>
+        </div>
+      </section>
+
+      <section class="testimonials" aria-label="Rider testimonials">
+        <div class="container">
+          <h2>Riders are raving about Bending Corners</h2>
+          <div class="testimonial-grid">
+            <figure class="testimonial">
+              <blockquote>
+                “I ditched the big apps. Bending Corners shows up on time and the
+                drivers actually remember me.”
+              </blockquote>
+              <figcaption>— Kia, Little Rock</figcaption>
+            </figure>
+            <figure class="testimonial">
+              <blockquote>
+                “Bundle pricing saved my family so much during basketball season.
+                Highly recommend the round-trip package!”
+              </blockquote>
+              <figcaption>— Marcus, Jacksonville</figcaption>
+            </figure>
+            <figure class="testimonial">
+              <blockquote>
+                “Love catching the web show episodes between rides. It feels like a
+                true community.”
+              </blockquote>
+              <figcaption>— Bree, North Little Rock</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section id="faq" class="faq" aria-labelledby="faq-title">
+        <div class="container">
+          <h2 id="faq-title">Frequently asked questions</h2>
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              What areas do you serve?
+            </button>
+            <div class="faq-answer" hidden>
+              We proudly serve Little Rock, Jacksonville, and North Little Rock in
+              Arkansas. If you are just outside the zone, send us a message and we
+              will do our best to accommodate.
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              How do I pay for my ride?
+            </button>
+            <div class="faq-answer" hidden>
+              We accept Cash App at <strong>$BendingCorners2023</strong>, secure
+              card checkouts through Stripe or Square, and cash payments.
+              Digital receipts are available upon request.
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              Can I schedule rides in advance?
+            </button>
+            <div class="faq-answer" hidden>
+              Absolutely. Use the booking form to request your date and time, and we
+              will confirm via text. You can also book recurring rides for work or
+              school.
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              Do you accommodate accessibility needs?
+            </button>
+            <div class="faq-answer" hidden>
+              Yes. Please include any accessibility details in the notes section of
+              your booking, and we will pair you with the best driver and vehicle.
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-brand">
+          <span class="logo-sign">🚗</span>
+          <div>
+            <strong>Bending Corners</strong>
+            <span>Ride Services &amp; Web Show</span>
+          </div>
+        </div>
+        <div class="footer-links">
+          <a href="sms:+15013498972">Text (501) 349-8972</a>
+          <a href="https://cash.app/$BendingCorners2023" target="_blank" rel="noopener">
+            Cash App $BendingCorners2023
+          </a>
+          <a href="mailto:rides@bendingcorners.com">rides@bendingcorners.com</a>
+        </div>
+        <p class="footer-copy">&copy; <span id="year"></span> Bending Corners. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
